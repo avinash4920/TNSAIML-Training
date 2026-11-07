@@ -1,0 +1,32 @@
+{
+  "best_model": "Random Forest Regressor",
+  "target_unit": "INR lakhs",
+  "metrics": {
+    "Linear Regression": {
+      "mae": 4.21856635496455,
+      "rmse": 5.4588653083992975,
+      "r2": 0.9199809075362324
+    },
+    "Random Forest Regressor": {
+      "mae": 3.3018536360221233,
+      "rmse": 4.079535086169515,
+      "r2": 0.9553100149446878
+    },
+    "Gradient Boosting Regressor": {
+      "mae": 3.486113086936113,
+      "rmse": 4.2548341886864005,
+      "r2": 0.9513868072905258
+    }
+  },
+  "test_rows": 300,
+  "feature_columns": [
+    "area_sqft",
+    "bedrooms",
+    "bathrooms",
+    "floors",
+    "age_years",
+    "parking",
+    "location"
+  ],
+  "dataset_note": "Use real, verified local property data for meaningful market estimates."
+}
